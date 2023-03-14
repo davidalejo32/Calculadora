@@ -21,6 +21,7 @@ function renderGUI() {
   calcDisInput.setAttribute("value","0");
   calcDisInput.setAttribute("disabled","true");
   calcDisInput.setAttribute("class", "form-control text-end form-control-lg");
+  calcDisInput.setAttribute("style", "margin-bottom: 10px; height: 80px; font-size: 2rem;");
   calcDis.appendChild(calcDisInput)
   
 
